@@ -1,0 +1,13 @@
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row; */
+}
+
+.neo{
+    border-radius: 50px;
+background: #e3dede;
+box-shadow:  20px 20px 60px #c1bdbd,
+             -20px -20px 60px #ffffff;
+}

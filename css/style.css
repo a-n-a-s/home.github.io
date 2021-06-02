@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Domine", serif; */
+}
+body {
+  height: 400vh;
+}
+.note {
+  /* background-color: #634d4d; */
+  width: 100%;
+  height: 3vh;
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  box-sizing: border-box;
+}
+.header {
+  height: 8vh;
+
+  background-color:#F77878;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  /* position: fixed; */
+  color: black;
+}
+
+.logo {
+  margin: 0px 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* color: white; */
+  font-size: large;
+  width: 5vw;
+}
+
+.nav ul {
+  width: 80vw;
+}
+.nav ul li {
+  list-style: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 1%;
+}
+.nav ul  :hover{
+  color: white;
+}
+.use-icons {
+  width: 10vw;
+}
+.use-icons span {
+  margin: 0 5%;
+  cursor: pointer;
+}
+.grid-card-hover:hover{
+  transform: scale(1.03);
+  opacity: 0.7;
+  overflow: hidden;
+
+
+}
+.my-grid{
+  width: 100%;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+}
+.my-grid-items{
+  display: inline-block;
+  width: 20vw;
+  margin: 1%;
+  
+  
+
+}
+.my-grid-items img{
+  
+  
+  width: 20vw;
+  height: 30vh;
+}
+
+.quality{
+  margin: 2% 5%;
+}
+.quality span.material-icons{
+  font-size:36px;
+  margin-right: 5%;
+}
+.footer{
+  height: 20vh;
+  flex-direction: row;
+  
+}
+.content-1{
+  margin-top: 1%;
+  height: 18vh;
+  width: 20vw;
+  flex-direction: column;
+}
+.content-2{
+  margin-top: 1%;
+  height: 18vh;
+  width: 20vw;
+  flex-direction: column;
+}
+
+
+
+
+
+
